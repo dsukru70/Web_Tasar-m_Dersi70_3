@@ -1,0 +1,204 @@
+/* Tüm öğelerin kenar boşluklarını (margin) ve dolgularını (padding) sıfırlar */
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  #sayfa {
+    /* Sayfa genişliğini 900 piksel olarak ayarlar */
+    width: 900px;
+    /* Katı kenarlık stili uygular */
+    border-style: solid;
+    /* Kenarlık rengini siyah yapar */
+    border-color: black;
+    /* Kenarlık genişliğini 1 piksel yapar */
+    border-width: 1px;
+    /* Minimum yüksekliği 600 piksel olarak belirler */
+    min-height: 600px;
+    /* Sayfayı ortalar */
+    margin: auto;
+  }
+  
+  #banner {
+    /* Banner genişliğini 897 piksel olarak ayarlar */
+    width: 897px;
+    /* Katı kenarlık stili uygular */
+    border-style: solid;
+    /* Kenarlık rengini siyah yapar */
+    border-color: black;
+    /* Kenarlık genişliğini 1 piksel yapar */
+    border-width: 1px;
+    /* Yüksekliği 100 piksel olarak ayarlar */
+    height: 100px;
+    /* Arka plan rengini beyaz yapar */
+    background-color: white;
+    /* Banner'ı ortalar */
+    margin: auto;
+  }
+  
+  #logo {
+    /* Logo genişliğini 100 piksel olarak ayarlar */
+    width: 100px;
+    /* Katı kenarlık stili uygular */
+    border-style: solid;
+    /* Kenarlık rengini siyah yapar */
+    border-color: black;
+    /* Kenarlık genişliğini 1 piksel yapar */
+    border-width: 1px;
+    /* Yüksekliği 80 piksel olarak ayarlar */
+    height: 80px;
+    /* Arka plan rengini açık gri yapar */
+    background-color: rgb(197, 197, 186);
+    /* Pozisyonu relative olarak belirler */
+    position: relative;
+    /* Yukarıdan 10 piksel kaydırır */
+    top: 10px;
+    /* Soldan 10 piksel kaydırır */
+    left: 10px;
+    /* Sol tarafa yaslar */
+    float: left;
+  }
+  
+  #sosyal {
+    /* Sosyal medya alanının genişliğini 180 piksel olarak ayarlar */
+    width: 180px;
+    /* Katı kenarlık stili uygular */
+    border-style: solid;
+    /* Kenarlık rengini siyah yapar */
+    border-color: black;
+    /* Kenarlık genişliğini 1 piksel yapar */
+    border-width: 1px;
+    /* Yüksekliği 40 piksel olarak ayarlar */
+    height: 40px;
+    /* Arka plan rengini açık gri yapar */
+    background-color: rgb(197, 197, 186);
+    /* Sağ tarafa yaslar */
+    float: right;
+    /* Pozisyonu relative olarak belirler */
+    position: relative;
+    /* Yukarıdan 50 piksel kaydırır */
+    top: 50px;
+    /* Sağdan 10 piksel kaydırır */
+    right: 10px;
+  }
+  
+  #anamenu {
+    /* Ana menü genişliğini 897 piksel olarak ayarlar */
+    width: 897px;
+    /* Katı kenarlık stili uygular */
+    border-style: solid;
+    /* Kenarlık rengini siyah yapar */
+    border-color: black;
+    /* Kenarlık genişliğini 1 piksel yapar */
+    border-width: 1px;
+    /* Yüksekliği 50 piksel olarak ayarlar */
+    height: 50px;
+    /* Arka plan rengini mavi yapar */
+    background-color: rgb(23, 167, 224);
+    /* Ana menüyü ortalar */
+    margin: auto;
+  }
+  
+  #anamenu ul {
+    /* Liste işaretlerini kaldırır */
+    list-style-type: none;
+  }
+  
+  #anamenu li {
+    /* Katı kenarlık stili uygular */
+    border-style: solid;
+    /* Kenarlık genişliğini 3 piksel yapar */
+    border-width: 3px;
+    /* Genişliği 80 piksel olarak ayarlar */
+    width: 80px;
+    /* Kenarları yuvarlatır (border-radius) */
+    border-radius: 5px;
+    /* Kenarlık rengini mavi yapar */
+    border-color: blue;
+    /* Arka plan rengini beyaz yapar */
+    background-color: white;
+    /* Sol tarafa yaslar */
+    float: left;
+    /* Sol kenar boşluğunu 9 piksel yapar */
+    margin-left: 9px;
+    /* Pozisyonu relative olarak belirler */
+    position: relative;
+    /* Yukarıdan 10 piksel kaydırır */
+    top: 10px;
+    /* Metni ortalar */
+    text-align: center;
+  }
+  
+  #içerik {
+    /* İçerik alanının genişliğini 590 piksel olarak ayarlar */
+    width: 590px;
+    /* Katı kenarlık stili uygular */
+    border-style: solid;
+    /* Kenarlık rengini siyah yapar */
+    border-color: black;
+    /* Kenarlık genişliğini 1 piksel yapar */
+    border-width: 1px;
+    /* Yüksekliği 400 piksel olarak ayarlar */
+    height: 400px;
+    /* Arka plan rengini beyaz yapar */
+    background-color: white;
+    /* Sol tarafa yaslar */
+    float: left;
+  }
+  
+  #yanmeü {
+    /* Yan menü genişliğini 300 piksel olarak ayarlar */
+    width: 300px;
+    /* Katı kenarlık stili uygular */
+    border-style: solid;
+    /* Kenarlık rengini siyah yapar */
+    border-color: black;
+    /* Kenarlık genişliğini 1 piksel yapar */
+    border-width: 1px;
+    /* Yüksekliği 400 piksel olarak ayarlar */
+    height: 400px;
+    /* Arka plan rengini koyu kırmızı yapar */
+    background-color: rgb(197, 12, 12);
+    /* Sol tarafa yaslar */
+    float: left;
+  }
+  
+  .resim {
+    /* Sol tarafa yaslar */
+    float: left;
+    /* Genişliği 200 piksel olarak ayarlar */
+    width: 200px;
+    /* Kenar boşluğunu 10 piksel yapar */
+    margin: 10px;
+  }
+  
+  .metin {
+    /* Yazı tipi ailesini Georgia ve serif olarak ayarlar */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* Yazı tipi boyutunu 20 piksel yapar */
+    font-size: 20px;
+    /* Yazı rengini mavi yapar */
+    color: blue;
+    /* Kenar boşluğunu 5 piksel yapar */
+    margin: 5px;
+  }
+  
+
+  /* Alt menünün genişliğini 896 piksel olarak ayarlar */
+  /* Katı kenarlık stili uygular */
+  /* Kenarlık rengini siyah yapar */
+  /* Kenarlık genişliğini 1 piksel yapar */
+/* Yüksekliği 35 piksel olarak ayarlar */
+    /* Arka plan rengini mor yapar */
+    /* Sol tarafa yaslar */
+
+  #altmone {
+    width: 896px;   
+    border-style: solid;  
+    border-color: black;   
+    border-width: 1px;   
+    height: 35px;
+    background-color: rgb(110, 13, 238);
+    float: left;
+  }
+  
